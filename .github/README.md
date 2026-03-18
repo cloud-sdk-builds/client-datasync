@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-datasync`](https://www.npmjs.com/package/@aws-sdk/client-datasync/v/3.1010.0).
+[`@aws-sdk/client-datasync`](https://www.npmjs.com/package/@aws-sdk/client-datasync/v/3.1011.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-datasync@3.1010.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-datasync@3.1011.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-3U+l1glyvVfL5ONjlBBo3MMr8rDxn5ZsQ/3G922LUN4VDnhi0hfyeviysCF46mW5
+sha384-f05QqBzpvA4qZBW4W3CQWN9eG6RU4MuDEq+cfoc+RAoDOjOG2lQCwmN1RBq9id6o
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-datasync": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-datasync@3.1010.0/index.min.mjs"
+            "@aws-sdk/client-datasync": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-datasync@3.1011.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-datasync@3.1010.0/index.min.mjs": "sha384-3U+l1glyvVfL5ONjlBBo3MMr8rDxn5ZsQ/3G922LUN4VDnhi0hfyeviysCF46mW5"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-datasync@3.1011.0/index.min.mjs": "sha384-f05QqBzpvA4qZBW4W3CQWN9eG6RU4MuDEq+cfoc+RAoDOjOG2lQCwmN1RBq9id6o"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-datasync": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-datasync@3.1010.0/index.min.mjs"
+                        "@aws-sdk/client-datasync": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-datasync@3.1011.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-datasync@3.1010.0/index.min.mjs": "sha384-3U+l1glyvVfL5ONjlBBo3MMr8rDxn5ZsQ/3G922LUN4VDnhi0hfyeviysCF46mW5"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-datasync@3.1011.0/index.min.mjs": "sha384-f05QqBzpvA4qZBW4W3CQWN9eG6RU4MuDEq+cfoc+RAoDOjOG2lQCwmN1RBq9id6o"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1010.0`)
+* Always pin to a specific version (`@3.1011.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-datasync/blob/refs/tags/3.1010.0/LICENSE
+https://github.com/cloud-sdk-builds/client-datasync/blob/refs/tags/3.1011.0/LICENSE
 ```
 
 ---
